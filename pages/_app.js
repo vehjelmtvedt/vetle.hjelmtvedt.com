@@ -1,10 +1,11 @@
 import '../styles/globals.css'
-import Navbar from '../components/Navbar'
+import Header from '../components/Header'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <Navbar />
+      <Header />
       <Component {...pageProps} />
     </>
   )
