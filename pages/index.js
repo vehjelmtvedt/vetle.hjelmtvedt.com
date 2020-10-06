@@ -1,13 +1,12 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Link from 'next/link'
+import Navbar from '../components/Navbar'
 
-export default function Home() {
+function Home() {
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Vetle Hjelmtvedt</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-    </div>
+    <>
+      <h1>THIS IS THE HOME PAGE</h1>
+    </>
   )
 }
+
+export default Home
