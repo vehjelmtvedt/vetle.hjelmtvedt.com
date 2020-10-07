@@ -18,10 +18,27 @@
     transition: '0.3s ease', 
 }
 
-
 #brandText {
     color: white;
 }
+
+.isScrolled {
+    color: black;
+}
+
+.notScrolled {
+    color: white
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
