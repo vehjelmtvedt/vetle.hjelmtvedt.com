@@ -7,7 +7,7 @@ import styles from './header.module.css'
 export default function Header() {
     return (
         <>
-            <Navbar collapseOnSelect expand="lg" sticky="top" id={styles.navbar}>
+            <Navbar collapseOnSelect scrolling="true" expand="md" fixed="top" id={styles.navbar}>
 
 
                 <Link href="/"><Navbar.Brand href="/"><p id={styles.brandText}>Vetle Hjelmtvedt</p></Navbar.Brand></Link>

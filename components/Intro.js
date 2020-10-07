@@ -9,7 +9,7 @@ export default function Intro() {
             <Jumbotron fluid className={styles.jumbotron}>
                 <Container className={styles.container}>
                     <div>
-                        <h1>Vetle Hjelmtvedt</h1>
+                        
                     </div>
                 </Container>
             </Jumbotron>
