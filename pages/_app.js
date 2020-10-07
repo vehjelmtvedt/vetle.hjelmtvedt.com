@@ -4,6 +4,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Router from 'next/router';
 import NProgress from 'nprogress'; //nprogress module
 import 'nprogress/nprogress.css'; //styles of nprogress
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { faCheckSquare, faCoffee, faGlasses } from '@fortawesome/free-solid-svg-icons'
+
+
+library.add(fab, faGlasses, faCoffee)
 
 //Binding events. 
 Router.events.on('routeChangeStart', () => NProgress.start()); 

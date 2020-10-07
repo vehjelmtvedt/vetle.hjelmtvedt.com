@@ -2,6 +2,9 @@ import CardDeck from 'react-bootstrap/CardDeck'
 import Card from 'react-bootstrap/Card'
 import styles from './projects.module.css'
 import Button from 'react-bootstrap/Button'
+import ButtonToolbar from 'react-bootstrap/ButtonToolbar'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 
 export default function Projects() {
     return (
@@ -15,8 +18,10 @@ export default function Projects() {
                             This is a wider card with supporting text below as a natural lead-in to
                             additional content. This content is a little bit longer.
                         </Card.Text>
-                    <Button className={styles.button} variant='primary'>Read more</Button>
-                    <Button variant='primary'>Github</Button>
+                        <ButtonToolbar className="justify-content-between">
+                            <Button variant='primary'>Read more <FontAwesomeIcon icon="glasses" /></Button>
+                            <Button variant='primary'>Github <FontAwesomeIcon icon={["fab", "github"]} /></Button>
+                        </ButtonToolbar>
                     </Card.Body>
                 </Card>
                 <Card bg='dark' text="white" className={styles.card}>
@@ -27,6 +32,10 @@ export default function Projects() {
                             This is a wider card with supporting text below as a natural lead-in to
                             additional content. This content is a little bit longer.
                         </Card.Text>
+                        <ButtonToolbar className="justify-content-between">
+                            <Button variant='primary'>Read more <FontAwesomeIcon icon="glasses" /></Button>
+                            <Button variant='primary'>Github <FontAwesomeIcon icon={["fab", "github"]} /></Button>
+                        </ButtonToolbar>
                     </Card.Body>
                 </Card>
                 <Card bg='dark' text="white" className={styles.card}>
@@ -37,6 +46,10 @@ export default function Projects() {
                             This is a wider card with supporting text below as a natural lead-in to
                             additional content. This content is a little bit longer.
                         </Card.Text>
+                        <ButtonToolbar className="justify-content-between">
+                            <Button variant='primary'>Read more <FontAwesomeIcon icon="glasses" /></Button>
+                            <Button variant='primary'>Github <FontAwesomeIcon icon={["fab", "github"]} /></Button>
+                        </ButtonToolbar>
                     </Card.Body>
                 </Card>
     
