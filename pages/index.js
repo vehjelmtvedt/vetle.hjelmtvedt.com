@@ -1,9 +1,9 @@
 import Link from 'next/link'
-
+import Intro from '../components/Intro'
 function Home() {
   return (
     <>
-      <h1>THIS IS THE HOME PAGE</h1>
+      < Intro />
     </>
   )
 }

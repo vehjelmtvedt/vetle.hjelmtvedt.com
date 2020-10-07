@@ -1,0 +1,12 @@
+.jumbotron {
+    margin-top: 0;
+    height: 100vh;
+    background-image: url(../public/background.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+}
+

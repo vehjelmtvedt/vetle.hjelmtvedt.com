@@ -1,6 +1,7 @@
 #navbar {
     background-color: rgb(203, 161, 53);
-    
+    margin-bottom: 0px;
+    padding-bottom: 0;    
 }
 
 .navitems {
@@ -11,4 +12,15 @@
 .navitems * {
     margin-left: 40px;
 }
+
+.navHeading {
+    font-size: 20px;
+    color: white;
+}
+
+#brandText {
+    color: white;
+}
+
+
 
