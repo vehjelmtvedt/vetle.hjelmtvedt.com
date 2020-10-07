@@ -12,6 +12,8 @@
     margin-left: 40px;
 }
 
+/* --- Classes applied on scroll --- */
+
 .isScrolledText {
     color: black;
     font-size: 20px;
@@ -31,6 +33,26 @@
 .notScrolledSection {
     background-color: transparent;
 }
+
+/* --- Media Queries ---*/
+
+@media only screen and (max-width: 768px) {
+    #navbar {
+      background-color: white;
+    }
+
+    #navbrand {
+        color: black;
+    }
+
+    p.isScrolledText {
+        color: black;
+    }
+
+    p.notScrolledText {
+        color: black;
+    }
+  }
 
 
 
