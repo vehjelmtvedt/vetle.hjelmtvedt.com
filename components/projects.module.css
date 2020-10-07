@@ -7,8 +7,16 @@
 
 .card {
     max-height: 350px;
+    background-color: #283845;
 }
 
 .button {
-    min-width: 200px;
+    background-color: #558C8C;
+    border: none;
 }
+
+.heading {
+    text-align: center;
+    margin-bottom: 30px;
+}
+

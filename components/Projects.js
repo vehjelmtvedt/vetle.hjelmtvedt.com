@@ -9,8 +9,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 export default function Projects() {
     return (
         <>
+            <h1 className={styles.heading}>My Projects</h1>
             <CardDeck className={styles.container}>
-                <Card bg='dark' text="white" className={styles.card}>
+                <Card text="white" className={styles.card}>
                     <Card.Img variant="top" src="https://via.placeholder.com/150x50"/>
                     <Card.Body>
                         <Card.Title>Algorithms Visualizer</Card.Title>
@@ -19,12 +20,12 @@ export default function Projects() {
                             additional content. This content is a little bit longer.
                         </Card.Text>
                         <ButtonToolbar className="justify-content-between">
-                            <Button variant='primary'>Read more <FontAwesomeIcon icon="glasses" /></Button>
-                            <Button variant='primary'>Github <FontAwesomeIcon icon={["fab", "github"]} /></Button>
+                            <Button className={styles.button} variant='primary'>Read more <FontAwesomeIcon icon="glasses" /></Button>
+                            <Button className={styles.button} variant='primary'>Github <FontAwesomeIcon icon={["fab", "github"]} /></Button>
                         </ButtonToolbar>
                     </Card.Body>
                 </Card>
-                <Card bg='dark' text="white" className={styles.card}>
+                <Card text="white" className={styles.card}>
                     <Card.Img variant="top" src="https://via.placeholder.com/150x50" />
                     <Card.Body>
                         <Card.Title>GoGreen</Card.Title>
@@ -33,12 +34,12 @@ export default function Projects() {
                             additional content. This content is a little bit longer.
                         </Card.Text>
                         <ButtonToolbar className="justify-content-between">
-                            <Button variant='primary'>Read more <FontAwesomeIcon icon="glasses" /></Button>
-                            <Button variant='primary'>Github <FontAwesomeIcon icon={["fab", "github"]} /></Button>
+                            <Button className={styles.button} variant='primary'>Read more <FontAwesomeIcon icon="glasses" /></Button>
+                            <Button className={styles.button} variant='primary'>Github <FontAwesomeIcon icon={["fab", "github"]} /></Button>
                         </ButtonToolbar>
                     </Card.Body>
                 </Card>
-                <Card bg='dark' text="white" className={styles.card}>
+                <Card text="white" className={styles.card}>
                     <Card.Img variant="top" src="https://via.placeholder.com/150x50" />
                     <Card.Body>
                         <Card.Title>Ludo Game</Card.Title>
@@ -47,8 +48,8 @@ export default function Projects() {
                             additional content. This content is a little bit longer.
                         </Card.Text>
                         <ButtonToolbar className="justify-content-between">
-                            <Button variant='primary'>Read more <FontAwesomeIcon icon="glasses" /></Button>
-                            <Button variant='primary'>Github <FontAwesomeIcon icon={["fab", "github"]} /></Button>
+                            <Button className={styles.button} variant='primary'>Read more <FontAwesomeIcon icon="glasses" /></Button>
+                            <Button className={styles.button} variant='primary'>Github <FontAwesomeIcon icon={["fab", "github"]} /></Button>
                         </ButtonToolbar>
                     </Card.Body>
                 </Card>
