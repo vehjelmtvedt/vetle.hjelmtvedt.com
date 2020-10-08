@@ -1,0 +1,47 @@
+.jumbotron {
+    height: 100vh;
+    background-image: url(../public/background1.jpg);
+    background-size: cover;
+    display: flex;
+    margin-bottom: 0;
+}
+
+.container {
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+}
+
+.formcontainer {
+    width: 70%;
+    height: 100%;
+    margin: auto;
+}
+
+.heading {
+    margin-top: 20px;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+
+.secondName {
+    color: #53917E;
+}
+
+.form {
+    margin-top: 40px;
+}
+
+.button {
+    height: 40px;
+    width: 50%;
+    background-color:  #53917E;
+    border: none;
+}
+
+
+

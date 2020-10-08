@@ -11,7 +11,7 @@ export default function Footer() {
     
     return (
         <>
-            <Jumbotron fluid className={styles.jumbotron}>
+            <Jumbotron fluid className={styles.jumbotron} sticky='bottom'>
                 <Container className={styles.container}>
                     <p className={styles.p}>S T A Y &nbsp; &nbsp; <span className={styles.secondName}>C O N N E C T E D</span></p>
                     <FontAwesomeIcon className={styles.icons} icon={faEnvelope} size="2x"/>

@@ -2,17 +2,22 @@ import Link from 'next/link'
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import styles from './header.module.css'
-import React, { useState, useRef, useEffect} from 'react';
+import React, { useState, useEffect} from 'react';
 
 
 
-export default function Header() {
+export default function Header(props) {
 
     const [isScrolled, setIsScrolled] = useState(false)
     useEffect(() => {
-        window.addEventListener("scroll", () => {
-            setIsScrolled(window.scrollY > 100);
-        });
+        if (props.threshold === 0) {
+            setIsScrolled(true)
+        } else {
+            window.addEventListener("scroll", () => {
+                setIsScrolled(window.scrollY > props.threshold);
+            });
+        }
+        
     }, []);
     
     return (
@@ -25,7 +30,7 @@ export default function Header() {
                     <Nav className={styles.navitems}>
                         <Link href="/"><Nav.Link href="/"><p id={styles.testing} className={isScrolled ? styles.isScrolledText : styles.notScrolledText} style={{transition: '0.3s ease'}}>H O M E</p></Nav.Link></Link>
                         <Link href="/projects"><Nav.Link href="/projects"><p className={isScrolled ? styles.isScrolledText : styles.notScrolledText}  style={{transition: '0.3s ease'}}>P R O J E C T S</p></Nav.Link></Link>
-                        <Link href="/about"><Nav.Link href="/about"><p className={isScrolled ? styles.isScrolledText : styles.notScrolledText}  style={{transition: '0.3s ease'}}>A B O U T</p></Nav.Link></Link>
+                        <Link href="/contact"><Nav.Link href="/contact"><p className={isScrolled ? styles.isScrolledText : styles.notScrolledText}  style={{transition: '0.3s ease'}}>C O N T A C T</p></Nav.Link></Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

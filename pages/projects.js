@@ -1,5 +1,15 @@
+import Header from '../components/Header'
+import Footer from '../components/Footer'
+import ProjectCards from '../components/ProjectCards'
+
 function Projects() {
-    return <div>Projects page</div>
+    return (
+        <>
+            <Header threshold={0}/>
+            <ProjectCards />
+            <Footer/>
+        </>
+    )
 }
 
 export default Projects
