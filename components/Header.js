@@ -28,9 +28,9 @@ export default function Header(props) {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                 <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
                     <Nav className={styles.navitems}>
-                        <Link href="/"><Nav.Link href="/"><p id={styles.testing} className={isScrolled ? styles.isScrolledText : styles.notScrolledText} style={{transition: '0.3s ease'}}>H O M E</p></Nav.Link></Link>
-                        <Link href="/projects"><Nav.Link href="/projects"><p className={isScrolled ? styles.isScrolledText : styles.notScrolledText}  style={{transition: '0.3s ease'}}>P R O J E C T S</p></Nav.Link></Link>
-                        <Link href="/contact"><Nav.Link href="/contact"><p className={isScrolled ? styles.isScrolledText : styles.notScrolledText}  style={{transition: '0.3s ease'}}>C O N T A C T</p></Nav.Link></Link>
+                        <Link href="/"><Nav.Link href="/"><p className={isScrolled ? styles.isScrolledText : styles.notScrolledText} style={{transition: '0.3s ease'}}>HOME</p></Nav.Link></Link>
+                        <Link href="/projects"><Nav.Link href="/projects"><p className={isScrolled ? styles.isScrolledText : styles.notScrolledText}  style={{transition: '0.3s ease'}}>PROJECTS</p></Nav.Link></Link>
+                        <Link href="/contact"><Nav.Link href="/contact"><p className={isScrolled ? styles.isScrolledText : styles.notScrolledText}  style={{transition: '0.3s ease'}}>CONTACT</p></Nav.Link></Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

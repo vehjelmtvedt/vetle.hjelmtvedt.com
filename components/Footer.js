@@ -8,7 +8,7 @@ import Link from 'next/link'
 
 
 export default function Footer() {
-    
+
     return (
         <>
             <Jumbotron fluid className={styles.jumbotron} sticky='bottom'>

@@ -7,7 +7,7 @@ function Contact() {
         <>
             <Header threshold={0} />
             <ContactForm />
-            <Footer />
+            <Footer/>
         </>
     )
 }
