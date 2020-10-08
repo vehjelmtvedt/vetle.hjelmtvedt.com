@@ -17,4 +17,24 @@
     font-size: 20px;
 }
 
+.textdiv {
+    width: 70%;
+    height: 30%;
+    margin: auto;
+}
+
+.heading {
+    color: white; 
+    word-spacing: 8px;
+}
+
+.p {
+    color: white;
+    font-size: 20px;
+}
+
+.secondName {
+    color: #53917E;
+}
+
 

@@ -12,6 +12,12 @@
     margin-left: 40px;
 }
 
+
+
+.secondName {
+    color: #53917E;
+}
+
 /* --- Classes applied on scroll --- */
 
 .isScrolledText {
