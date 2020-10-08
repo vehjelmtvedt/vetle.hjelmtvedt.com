@@ -1,12 +1,12 @@
 import Header from '../components/Header'
 import Footer from '../components/Footer'
-import ProjectCards from '../components/ProjectCards'
+import ProjectView from '../components/ProjectView'
 
 function Projects() {
     return (
         <>
             <Header threshold={0}/>
-            <ProjectCards />
+            <ProjectView />
             <Footer/>
         </>
     )
