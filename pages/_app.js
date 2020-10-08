@@ -6,10 +6,11 @@ import NProgress from 'nprogress'; //nprogress module
 import 'nprogress/nprogress.css'; //styles of nprogress
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
-import { faCheckSquare, faCoffee, faGlasses } from '@fortawesome/free-solid-svg-icons'
+import { faGlasses, faArrowDown } from '@fortawesome/free-solid-svg-icons'
 
+// Add Font Awesome icons to library
+library.add(fab, faGlasses, faArrowDown)
 
-library.add(fab, faGlasses, faCoffee)
 
 //Binding events. 
 Router.events.on('routeChangeStart', () => NProgress.start()); 
