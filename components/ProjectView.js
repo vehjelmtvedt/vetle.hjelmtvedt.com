@@ -18,7 +18,7 @@ export default function ProjectView() {
                             <Card className={styles.cardsection1}>
                             </Card>
                             <Card className={styles.cardsection2}>
-                                <p>A node.js project which implements the old board game Ludo. Contains both server- and client-side code
+                                <p className={styles.p}>A node.js project which implements the old board game Ludo. Contains both server- and client-side code
                                     Server and client communicates through websockets. Once you join you will be placed in 
                                     a random lobby to play with others
                                 </p>
@@ -28,12 +28,37 @@ export default function ProjectView() {
                             </Card>
                         </CardDeck>
                     </div>
-                    <div className={styles.cardcontainer}></div>
-                    <div className={styles.cardcontainer}></div>
-                    <div className={styles.cardcontainer}></div>
-                    <div className={styles.cardcontainer}></div>
-                    <div className={styles.cardcontainer}></div>
-                    <div className={styles.cardcontainer}></div>
+                    <div className={styles.cardcontainer}>
+                    <h2>Algorithms Visualized</h2>
+                        <CardDeck className={styles.card}>
+                            <Card className={styles.cardsection3}>
+                            </Card>
+                            <Card className={styles.cardsection2}>
+                                <p className={styles.p}>A p5.js project aiming to visualize the most commonly-used sorting algorithms. 
+                                 I have currently implemented Bubble and Selection sort. This is a work in progress and I am planning to publish this soon to a website.
+                                  </p>
+                                <Button className={styles.button}>Read more <FontAwesomeIcon icon="glasses" /></Button>
+                                <Button className={styles.button}>See on github <FontAwesomeIcon icon={["fab", "github"]} /></Button>
+                                <Button className={styles.button}>Live demo <FontAwesomeIcon icon={faLongArrowAltRight} /></Button>
+                            </Card>
+                        </CardDeck>
+                    </div>
+                    <div className={styles.cardcontainer}>
+                    <h2>GoGreen</h2>
+                        <CardDeck className={styles.card}>
+                            <Card className={styles.cardsection4}>
+                            </Card>
+                            <Card className={styles.cardsection2}>
+                                <p className={styles.p}>A GUI application + server written in Java. Made as a group assignment in the first year 
+                                of university. It functions as a social media in which you can log activities that saves CO2 emissions and
+                                compare your emission savings with friends.</p>
+                                <Button className={styles.button}>Read more <FontAwesomeIcon icon="glasses" /></Button>
+                                <Button className={styles.button}>See on github <FontAwesomeIcon icon={["fab", "github"]} /></Button>
+                                <Button className={styles.button}>Live demo <FontAwesomeIcon icon={faLongArrowAltRight} /></Button>
+                            </Card>
+                        </CardDeck>
+                    </div>
+                    
                 </Container>
             </Jumbotron>
         </>
