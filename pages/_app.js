@@ -7,6 +7,7 @@ import 'nprogress/nprogress.css'; //styles of nprogress
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { faGlasses, faArrowDown } from '@fortawesome/free-solid-svg-icons'
+import Footer from '../components/Footer'
 
 // Add Font Awesome icons to library
 library.add(fab, faGlasses, faArrowDown)
@@ -23,6 +24,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Header />
       <Component {...pageProps} />
+      < Footer />
     </>
   )
 }

@@ -9,7 +9,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 export default function Projects() {
     return (
         <>
-            <h1 className={styles.heading}>My Projects</h1>
+            <h1 className={styles.heading}>M Y  &nbsp;  <span className={styles.secondName}>P R O J E C T S</span></h1>
             <CardDeck className={styles.container}>
                 <Card text="white" className={styles.card}>
                     <Card.Img variant="top" src="https://via.placeholder.com/150x50"/>
