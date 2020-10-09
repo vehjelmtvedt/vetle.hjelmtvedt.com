@@ -23,7 +23,7 @@ export default function Intro() {
                 <Jumbotron fluid className={styles.jumbotron}>
                     <Container className={styles.container} style={{display: 'flex', justifyContent: 'center'}}>
                         <div className={styles.textdiv}>
-                          <h1 className={styles.heading}>V E T L E &nbsp;  <span className={styles.secondName}>H J E L M T V E D T</span></h1>
+                          <h1 className={styles.heading}>VETLE <span className={styles.secondName}>HJELMTVEDT</span></h1>
                           <p className={styles.p}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam cursus dui eget ante hendrerit efficitur. Quisque libero nulla, porttitor ac luctus ac, tempus ut augue. Donec mollis ut odio eget consequat. Vestibulum ante ipsum primis in faucibus orci luctus et</p>
                         </div>
                     </Container>

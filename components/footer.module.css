@@ -15,10 +15,16 @@
     margin-right: 40px;
 }
 
-.icons:hover {
+.icons:hover, .scrollicon:hover {
     color:#53917E;
     transition: 0.3s ease;
 }
+
+.scrollicon {
+    color:white;
+}
+
+
 
 .secondName {
     color: #53917E;
@@ -27,4 +33,18 @@
 .p {
     color:white;
     font-size: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    .p, .secondName {
+        font-size: 20px;
+    }
+
+    .container {
+        height: 70%;
+    }
+
+    .icons {
+        margin-right: 20px;
+    }
 }

@@ -17,7 +17,7 @@ export default function Footer() {
                     <FontAwesomeIcon className={styles.icons} icon={faEnvelope} size="2x"/>
                     <FontAwesomeIcon icon={["fab", "github"]} className={styles.icons} size="2x"/>
                 </Container>
-                <Link href="/"><FontAwesomeIcon className={styles.icons} icon={faArrowCircleUp} size="4x"/></Link>
+                <Link href="/"><FontAwesomeIcon className={styles.scrollicon} icon={faArrowCircleUp} size="4x"/></Link>
             </Jumbotron>
         </>
     )

@@ -11,6 +11,7 @@
     text-align: center;
     height: 90%;
     width: 100%;
+    border: 2px dashed red;
 }
 
 #p {
@@ -26,7 +27,7 @@
 
 .heading {
     color: white; 
-    word-spacing: 8px;
+    letter-spacing: 9px;
 }
 
 .p {
@@ -36,6 +37,17 @@
 
 .secondName {
     color: #53917E;
+}
+
+@media only screen and (max-width: 768px) {
+    .heading {
+        font-size: 20px;
+        padding-bottom: 30px;
+    }
+
+    .textdiv {
+        margin-top: 30%;
+    }
 }
 
 
