@@ -6,7 +6,7 @@ export default function Aboutme() {
         <>
             <Jumbotron fluid className={styles.jumbotron}>
                 <h1 className={styles.heading}>A B O U T  &nbsp;  <span className={styles.secondName}>M E</span></h1>
-                
+                <h1>Test-push</h1>
             </Jumbotron>
         </>
     )
