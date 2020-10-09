@@ -10,7 +10,10 @@ function Home() {
     <>
       < Header threshold={200}/>
       < Intro />
-      <Footer/>
+      < Footer style={{position:'absolute',
+left:0,
+bottom:0,
+right:0}}/>
     </>
   )
 }

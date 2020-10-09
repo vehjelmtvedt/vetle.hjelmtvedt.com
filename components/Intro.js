@@ -1,12 +1,9 @@
 import styles from './intro.module.css'
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import Container from 'react-bootstrap/Container'
-import Header from '../components/Header'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowDown } from '@fortawesome/free-solid-svg-icons'
-import Projects from './ProjectCards'
+import Aboutme from './Aboutme'
 import React, { useRef } from 'react'
 
 
@@ -16,8 +13,8 @@ import React, { useRef } from 'react'
 
 export default function Intro() {
 
-    const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop)   
-    const myRef = useRef(Projects)
+    const scrollToRef = (ref) => window.scrollTo(0, (ref.current.offsetTop-60))   
+    const myRef = useRef()
     const executeScroll = () => scrollToRef(myRef)
 
     
@@ -35,7 +32,7 @@ export default function Intro() {
                         <FontAwesomeIcon icon={faArrowDown} size="2x" style={{color: 'white'}}/>
                     </div>
                 </Jumbotron>
-                <div ref={myRef}><Projects/></div>
+                <div ref={myRef}><Aboutme/></div>
             </>
         )
         
