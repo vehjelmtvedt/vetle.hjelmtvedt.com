@@ -16,11 +16,11 @@
     background-color: white;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
 }
 
 .cardcontainer {
     margin: auto;
-    margin-bottom: 100px;
     width: 90%;
     min-height: 50vh;
     background-color: whitesmoke;
@@ -78,3 +78,41 @@
     background-color: #53917E;
     border: none;
 }
+
+@media only screen and (max-width: 995px) {
+    .container {
+        min-width: 90vw;
+    }
+
+    .cardcontainer {
+        min-height: 60vh;
+    }
+
+    .jumbotron {
+        height: 230vh;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .jumbotron {
+        height: 270vh;
+    }
+
+    .cardcontainer {
+        min-height: 80vh;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .jumbotron {
+        height: 420vh;
+    }
+
+    .cardcontainer {
+        border: 3px solid red;
+        min-height: 80vh;
+        margin-top: 0;
+        margin-bottom: 400px;
+    }
+}
+
