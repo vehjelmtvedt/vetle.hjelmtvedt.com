@@ -1,6 +1,6 @@
-import Header from '../components/Header'
-import Footer from '../components/Footer'
-import ProjectView from '../components/ProjectView'
+import Header from '../components/global/Header'
+import Footer from '../components/global/Footer'
+import ProjectView from '../components/projects/ProjectView'
 
 function Projects() {
     return (

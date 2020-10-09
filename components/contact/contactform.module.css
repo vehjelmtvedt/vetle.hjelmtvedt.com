@@ -1,6 +1,6 @@
 .jumbotron {
     height: 110vh;
-    background-image: url(../public/background1.jpg);
+    background-image: url(../../public/background1.jpg);
     background-size: cover;
     display: flex;
     margin-bottom: 0;

@@ -1,8 +1,6 @@
-import Link from 'next/link'
-import Intro from '../components/Intro'
-import Projects from '../components/ProjectCards'
-import Footer from '../components/Footer'
-import Header from '../components/Header'
+import Intro from '../components/index/Intro'
+import Footer from '../components/global/Footer'
+import Header from '../components/global/Header'
 
 
 function Home() {
