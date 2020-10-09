@@ -27,6 +27,7 @@
 .heading {
     color: white; 
     letter-spacing: 9px;
+    margin-bottom: 20px;
 }
 
 .p {
@@ -36,6 +37,11 @@
 
 .secondName {
     color: #53917E;
+}
+
+.image {
+    width: 140px;
+
 }
 
 @media only screen and (max-width: 768px) {
