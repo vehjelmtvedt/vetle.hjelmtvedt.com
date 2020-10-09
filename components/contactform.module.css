@@ -1,5 +1,5 @@
 .jumbotron {
-    height: 100vh;
+    height: 110vh;
     background-image: url(../public/background1.jpg);
     background-size: cover;
     display: flex;
@@ -41,6 +41,36 @@
     width: 50%;
     background-color:  #53917E;
     border: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .heading, .secondName {
+        font-size: 20px;
+    }
+
+    .container {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    
+    .container {
+        height: 90%;
+        margin-top: 80px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    
+    .formcontainer {
+        
+        width: 100%;
+    }
+
+    .container {
+        width: 90%;
+    }
 }
 
 
