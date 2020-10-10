@@ -23,7 +23,7 @@ export default function ProjectView() {
                                     a random lobby to play with others
                                 </p>
                                 <Button className={styles.button}>Read more <FontAwesomeIcon icon="glasses" /></Button>
-                                <Button className={styles.button}>See on github <FontAwesomeIcon icon={["fab", "github"]} /></Button>
+                                <Button className={styles.button}><a className={styles.link} href="https://github.com/vehjelmtvedt/online-ludo.git">See on github </a> <FontAwesomeIcon icon={["fab", "github"]} /></Button>
                                 <Button className={styles.button}>Live demo <FontAwesomeIcon icon={faLongArrowAltRight} /></Button>
                             </Card>
                         </CardDeck>
@@ -38,7 +38,7 @@ export default function ProjectView() {
                                  I have currently implemented Bubble and Selection sort. This is a work in progress and I am planning to publish this soon to a website.
                                   </p>
                                 <Button className={styles.button}>Read more <FontAwesomeIcon icon="glasses" /></Button>
-                                <Button className={styles.button}>See on github <FontAwesomeIcon icon={["fab", "github"]} /></Button>
+                                <Button className={styles.button}><a className={styles.link} href="https://github.com/vehjelmtvedt/visualgo.git">See on github </a> <FontAwesomeIcon icon={["fab", "github"]} /></Button>
                                 <Button className={styles.button}>Live demo <FontAwesomeIcon icon={faLongArrowAltRight} /></Button>
                             </Card>
                         </CardDeck>
@@ -53,7 +53,7 @@ export default function ProjectView() {
                                 of university. It functions as a social media in which you can log activities that saves CO2 emissions and
                                 compare your emission savings with friends.</p>
                                 <Button className={styles.button}>Read more <FontAwesomeIcon icon="glasses" /></Button>
-                                <Button className={styles.button}>See on github <FontAwesomeIcon icon={["fab", "github"]} /></Button>
+                                <Button className={styles.button}><a className={styles.link} href="https://github.com/vehjelmtvedt/GoGreen.git">See on github </a><FontAwesomeIcon icon={["fab", "github"]} /></Button>
                                 <Button className={styles.button}>Live demo <FontAwesomeIcon icon={faLongArrowAltRight} /></Button>
                             </Card>
                         </CardDeck>

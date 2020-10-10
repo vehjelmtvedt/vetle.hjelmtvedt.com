@@ -24,9 +24,7 @@
     width: 90%;
     min-height: 50vh;
     background-color: whitesmoke;
-    -webkit-box-shadow: 0px 5px 11px -1px rgba(0,0,0,0.71);
-    -moz-box-shadow: 0px 5px 11px -1px rgba(0,0,0,0.71);
-    box-shadow: 0px 5px 11px -1px rgba(0,0,0,0.71);
+    
 }
 
 #firstcard {
@@ -79,6 +77,11 @@
     border: none;
 }
 
+.link {
+    text-decoration: none;
+    color: white;
+}
+
 @media only screen and (max-width: 995px) {
     .container {
         min-width: 90vw;
@@ -105,7 +108,7 @@
 
 @media only screen and (max-width: 576px) {
     .jumbotron {
-        height: 420vh;
+        height: 430vh;
     }
 
     .cardcontainer {
