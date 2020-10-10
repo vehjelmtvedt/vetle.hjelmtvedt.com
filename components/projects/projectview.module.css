@@ -82,6 +82,7 @@
     color: white;
 }
 
+
 @media only screen and (max-width: 995px) {
     .container {
         min-width: 90vw;
