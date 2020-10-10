@@ -15,7 +15,7 @@ export default function Footer() {
                 <Container className={styles.container}>
                     <p className={styles.p}>S T A Y &nbsp; &nbsp; <span className={styles.secondName}>C O N N E C T E D</span></p>
                     <FontAwesomeIcon className={styles.icons} icon={faEnvelope} size="2x"/>
-                    <FontAwesomeIcon icon={["fab", "github"]} className={styles.icons} size="2x"/>
+                    <a href=""><FontAwesomeIcon icon={["fab", "github"]} className={styles.icons} size="2x"/></a>
                 </Container>
                 <Link href="/"><FontAwesomeIcon className={styles.scrollicon} icon={faArrowCircleUp} size="4x"/></Link>
             </Jumbotron>
