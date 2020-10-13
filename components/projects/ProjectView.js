@@ -17,8 +17,7 @@ export default function ProjectView() {
                                     a random lobby to play with others.</p>
                     <img className={styles.image} src="/splashscreen.png"></img>
                     <ButtonToolbar className="justify-content-around" id={styles.buttongroup}>
-                        <Button className={styles.button}>Read more &nbsp; <FontAwesomeIcon icon="glasses" /></Button>
-                        <Button className={styles.button}>See on github &nbsp;  <FontAwesomeIcon icon={["fab", "github"]} /></Button>
+                        <Button className={styles.button}><a className={styles.link} href="https://github.com/vehjelmtvedt/online-ludo.git">See on github &nbsp;  <FontAwesomeIcon icon={["fab", "github"]} /></a></Button>
                         <Button className={styles.button}>Live demo &nbsp; <FontAwesomeIcon icon={faLongArrowAltRight} /></Button>
                     </ButtonToolbar>
                 </div>
@@ -29,8 +28,7 @@ export default function ProjectView() {
                                   </p>
                     <img className={styles.image} src="/algo.gif"></img>
                     <ButtonToolbar className="justify-content-around" id={styles.buttongroup}>
-                        <Button className={styles.button}>Read more &nbsp; <FontAwesomeIcon icon="glasses" /></Button>
-                        <Button className={styles.button}>See on github &nbsp;  <FontAwesomeIcon icon={["fab", "github"]} /></Button>
+                        <Button className={styles.button}><a className={styles.link} href="https://github.com/vehjelmtvedt/Visualize-Algorithms.git">See on github &nbsp;  <FontAwesomeIcon icon={["fab", "github"]} /></a></Button>
                         <Button className={styles.button}>Live demo &nbsp; <FontAwesomeIcon icon={faLongArrowAltRight} /></Button>
                     </ButtonToolbar>
                 </div>
@@ -41,8 +39,7 @@ export default function ProjectView() {
                                 compare your emission savings with friends.</p>
                     <img className={styles.image} src="/gogreen.png"></img>
                     <ButtonToolbar className="justify-content-around" id={styles.buttongroup}>
-                        <Button className={styles.button}>Read more &nbsp; <FontAwesomeIcon icon="glasses" /></Button>
-                        <Button className={styles.button}>See on github &nbsp;  <FontAwesomeIcon icon={["fab", "github"]} /></Button>
+                        <Button className={styles.button}><a className={styles.link} href="https://github.com/vehjelmtvedt/GoGreen.git">See on github &nbsp;  <FontAwesomeIcon icon={["fab", "github"]} /></a></Button>
                         <Button className={styles.button}>Live demo &nbsp; <FontAwesomeIcon icon={faLongArrowAltRight} /></Button>
                     </ButtonToolbar>
                 </div>
