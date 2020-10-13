@@ -4,9 +4,12 @@ import Container from 'react-bootstrap/Container'
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
 import React, { useRef } from 'react'
-import emailjs from 'emailjs-com'
+import emailjs from 'emailjs-com';
+ 
 
 export default function ContactForm() {
+
+    
 
     const nameRef = useRef();
     const emailRef = useRef();
@@ -14,14 +17,13 @@ export default function ContactForm() {
     const reasonRef = useRef();
     const messageRef = useRef();
 
-    function handleClick(e) {
-        console.log("i was clicked");
-        emailjs.send("service_r0p6ua6","template_req80pj",{
-            form_email: emailRef.current.value,
-            name: nameRef.current.value,
-            message: messageRef.current.value,
+    function sendEmail() {
+        emailjs.send("service_ew832el","template_m7dm6yh",{
             subject: subjectRef.current.value,
-        });
+            name: nameRef.current.value,
+            email: emailRef.current.value,
+            message: messageRef.current.value,
+        }, "user_OqEiHOnI0YZqZ3Yunyc5J");
     }
     
 
@@ -60,7 +62,7 @@ export default function ContactForm() {
                                 <Form.Control as="textarea" rows={3} ref={messageRef} name="message"/>
                             </Form.Group>
                         </Form>
-                        <Button as="input" type="submit" value="Submit" onClick={handleClick}/>
+                        <Button className={styles.button} as="input" type="submit" value="Submit" onClick={sendEmail}/>
                     </Container>
                 </Container>
             </Jumbotron>
