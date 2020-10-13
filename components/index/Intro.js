@@ -27,7 +27,7 @@ export default function Intro() {
                           <h1 className={styles.heading}>VETLE <span className={styles.secondName}>HJELMTVEDT</span></h1>
                           <p className={styles.p}>Hi! I'm a computer science stuent at the University of Bergen and this is 
                           my personal website containing my projects and contact information.</p>
-                          <Image src="/avatar.png" className={styles.image} roundedCircle />
+                          
                         </div>
                     </Container>
                     <div className={styles.div} onClick={executeScroll}>

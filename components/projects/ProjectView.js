@@ -46,6 +46,7 @@ export default function ProjectView() {
                         <Button className={styles.button}>Live demo &nbsp; <FontAwesomeIcon icon={faLongArrowAltRight} /></Button>
                     </ButtonToolbar>
                 </div>
+                
             </Jumbotron>
         </>
     )

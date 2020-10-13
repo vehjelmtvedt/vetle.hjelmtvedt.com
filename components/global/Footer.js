@@ -14,7 +14,7 @@ export default function Footer() {
             <Jumbotron fluid className={styles.jumbotron} sticky='bottom'>
                 <Container className={styles.container}>
                     <p className={styles.p}>S T A Y &nbsp; &nbsp; <span className={styles.secondName}>C O N N E C T E D</span></p>
-                    <Link href="/contact"><FontAwesomeIcon className={styles.icons} icon={faEnvelope} size="2x"/></Link>
+                    <a href="mailto:vetle@hjelmtvedt.com"><FontAwesomeIcon className={styles.icons} icon={faEnvelope} size="2x"/></a>
                     <a href="https://github.com/vehjelmtvedt"><FontAwesomeIcon icon={["fab", "github"]} className={styles.icons} size="2x"/></a>
                 </Container>
                 <Link href="/"><FontAwesomeIcon className={styles.scrollicon} icon={faArrowCircleUp} size="4x"/></Link>
