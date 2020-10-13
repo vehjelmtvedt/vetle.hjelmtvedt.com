@@ -10,7 +10,7 @@ function Projects() {
                 <title>Vetle Hjelmtvedt - Projects</title>
             </Head>
             <Header threshold={0}/>
-            <ProjectView />
+            <ProjectView/>
             <Footer/>
         </>
     )

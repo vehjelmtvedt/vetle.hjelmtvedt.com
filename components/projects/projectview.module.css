@@ -1,121 +1,49 @@
 .jumbotron {
-    margin-top: 0;
-    height: 200vh;
-    background-image: url(../../public/background1.jpg);
-    background-size: cover;
-    text-align: center;
+    background-color: wheat;
+    height: 100%;
     margin-bottom: 0;
     display: flex;
-}
-
-.container {
-    margin: auto;
-    margin-top: 50px;
-    height: 100%;
-    width: 100vw;
-    background-color: white;
-    display: flex;
     flex-direction: column;
-    align-items: flex-start;
-}
-
-.cardcontainer {
-    margin: auto;
-    width: 90%;
-    min-height: 50vh;
-    background-color: whitesmoke;
-    
-}
-
-#firstcard {
-    margin-top: 50px;
-}
-
-.card {
-    height: 80%;
-    margin-top: 20px;
-}
-
-.cardsection1 {
-    min-height: 90%;
-    background-color: whitesmoke;
-    background-image: url('../../public/splashscreen.png');
+    align-items: center;
+    background-image: url(../../public/background1.jpg);
     background-size: cover;
 }
 
-.cardsection2 {
-    min-height: 90%;
-    background-color: whitesmoke;
+.projectContainer {
+    width: 85%;
+    margin-bottom: 60px;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 25px;
+}
+
+#firstContainer {
+    margin-top: 40px;
+}
+
+.heading {
+    padding-top: 20px;
     text-align: center;
-    border: none;
-    text-align: left;
 }
 
-.cardsection3 {
-    min-height: 90%;
-    background-color: whitesmoke;
-    background-image: url('../../public/algo.gif');
-    background-size: cover;
+.description {
+    font-size: 20px;
+    padding-top: 30px;
 }
 
-.cardsection4 {
-    min-height: 90%;
-    background-color: whitesmoke;
-    background-image: url('../../public/gogreen.png');
-    background-size: cover;
+.image {
+    width: 100%;
 }
 
-.p {
-    color: black;
+#buttongroup {
+    margin-top: 30px;
 }
 
 .button {
-    margin: auto;
-    min-width: 50%;
-    min-height: 15%;
+    width: 20%;
+    height: 70px;
     background-color: #53917E;
     border: none;
 }
-
-.link {
-    text-decoration: none;
-    color: white;
-}
-
-
-@media only screen and (max-width: 995px) {
-    .container {
-        min-width: 90vw;
-    }
-
-    .cardcontainer {
-        min-height: 60vh;
-    }
-
-    .jumbotron {
-        height: 230vh;
-    }
-}
-
-@media only screen and (max-width: 720px) {
-    .jumbotron {
-        height: 270vh;
-    }
-
-    .cardcontainer {
-        min-height: 80vh;
-    }
-}
-
-@media only screen and (max-width: 576px) {
-    .jumbotron {
-        height: 430vh;
-    }
-
-    .cardcontainer {
-        min-height: 80vh;
-        margin-top: 0;
-        margin-bottom: 440px;
-    }
-}
-
