@@ -7,7 +7,7 @@ import React, { useRef } from 'react'
 import emailjs from 'emailjs-com';
  
 
-export default function ContactForm() {
+function ContactForm(props) {
 
     
 
@@ -18,15 +18,12 @@ export default function ContactForm() {
     const messageRef = useRef();
 
     function sendEmail() {
-        console.log()
-        //encrypted email
-
-        emailjs.send("service_7s2a6vt","template_54y8th8",{
+        emailjs.send(props.serviceKey,props.templateKey,{
             subject: subjectRef.current.value,
             name: nameRef.current.value,
             email: emailRef.current.value,
             message: messageRef.current.value,
-        }, "user_lOoYBOocnmZvROPWxCzVY");
+        }, props.emailKey);
     }
     
 
@@ -72,3 +69,7 @@ export default function ContactForm() {
         </>
     )
 }
+
+
+
+export default ContactForm
