@@ -18,12 +18,15 @@ export default function ContactForm() {
     const messageRef = useRef();
 
     function sendEmail() {
-        emailjs.send("service_ew832el","template_m7dm6yh",{
+        console.log()
+        //encrypted email
+
+        emailjs.send("service_7s2a6vt","template_54y8th8",{
             subject: subjectRef.current.value,
             name: nameRef.current.value,
             email: emailRef.current.value,
             message: messageRef.current.value,
-        }, "user_OqEiHOnI0YZqZ3Yunyc5J");
+        }, "user_lOoYBOocnmZvROPWxCzVY");
     }
     
 
