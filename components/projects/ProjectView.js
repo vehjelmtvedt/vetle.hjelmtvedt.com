@@ -6,7 +6,7 @@ import Link from 'next/link'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLongArrowAltRight } from '@fortawesome/free-solid-svg-icons'
 
-export default function Alternate() {
+export default function ProjectView() {
     return (
         <>
             <Jumbotron fluid className={styles.jumbotron}>
