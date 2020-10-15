@@ -26,3 +26,11 @@ npm run dev
 yarn dev
 ```
 5. point your browser to localhost:3000
+
+
+```console
+foo@bar:~$ whoami
+foo
+```
+
+^ a test
