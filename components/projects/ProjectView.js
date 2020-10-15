@@ -29,7 +29,7 @@ export default function ProjectView() {
                     <img className={styles.image} src="/algo.gif"></img>
                     <ButtonToolbar className="justify-content-around" id={styles.buttongroup}>
                         <Button className={styles.button}><a className={styles.link} href="https://github.com/vehjelmtvedt/algorithmsvisualized.com">See on github &nbsp;  <FontAwesomeIcon icon={["fab", "github"]} /></a></Button>
-                        <Button className={styles.button}>Live demo &nbsp; <FontAwesomeIcon icon={faLongArrowAltRight} /></Button>
+                        <Button className={styles.button}><a href="https://algorithmsvisualized.com/">Live demo &nbsp; <FontAwesomeIcon icon={faLongArrowAltRight} /></a></Button>
                     </ButtonToolbar>
                 </div>
                 <div className={styles.projectContainer}>
