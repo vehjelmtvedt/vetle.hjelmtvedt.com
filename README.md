@@ -1,6 +1,6 @@
 ## Personal Website
 
-This is the repository containing the code for my personal website which you can find [here]("https://vetle.hjelmtvedt.com").
+This is the repository containing the code for my personal website which you can find [here](https://vetle.hjelmtvedt.com).
 
 ___
 
