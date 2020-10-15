@@ -14,23 +14,7 @@ Next.js allows for ridiculous fast loading time with their server side pre-rende
 
 ## Getting Started
 1. Install npm
-2. ```shell
-git clone https://github.com/vehjelmtvedt/vetle.hjelmtvedt.com.git
-```
-3. ```shell
-cd vetle.hjelmtvedt.com
-```
-4. ```shell
-npm run dev
-# or
-yarn dev
-```
+2. git clone https://github.com/vehjelmtvedt/vetle.hjelmtvedt.com.git
+3. cd vetle.hjelmtvedt.com
+4. npm run dev
 5. point your browser to localhost:3000
-
-
-```console
-foo@bar:~$ whoami
-foo
-```
-
-^ a test
