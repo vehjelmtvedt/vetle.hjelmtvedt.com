@@ -26,7 +26,7 @@ export default function Intro() {
                         <div className={styles.textdiv}>
                           <h1 className={styles.heading}>VETLE <span className={styles.secondName}>HJELMTVEDT</span></h1>
                           <p className={styles.p}>Hi! I'm a computer science stuent at the University of Bergen and this is 
-                          my personal website containing my projects and contact information.</p>
+                          my personal website containing my projects and contact information. This site is still a work in progress.</p>
                         </div>
                     </Container>
                     <div className={styles.div} onClick={executeScroll}>
