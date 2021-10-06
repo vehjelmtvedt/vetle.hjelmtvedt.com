@@ -12,21 +12,17 @@ export default function Aboutme() {
                     
                     <div className={styles.text}>
                         <h3>Web development</h3>
-                        <p>I mostly work with full stack web development using the node.js framework, although I prefer working with the backend components. This website is built using the next.js framework for React. Next.js pre-renders pages at build-time (SSG), which means lightning fast loading time, try it out yourself!
+                        <p>I mostly work with web development using the React framework. This website is built using the next.js framework for React. Next.js pre-renders pages at build-time (SSG), which means lightning fast loading time, try it out yourself!
                         </p>
                     </div>
                     <div className={styles.text}>
                         <h3>Java and Python</h3>
-                        <p>I’ve also completed various projects in Java such as the GUI application GoGreen. Similar to web development, I prefer working the backend of these applications. In addition, I am quite proficient in Python.
+                        <p>I’ve also completed various projects in Java such as the GUI application GoGreen. I prefer working the backend of Java applications as the frontend development in Java is not as enjoyable. In addition, I am quite proficient in Python.
                         </p>
                     </div>
                 </div>
                 <div className={styles.textcontainer2}>
-                    <div className={styles.text}>
-                        <h3>IOT</h3>
-                        <p>Along with my love of web development is IOT. By far, my coolest project must be my homebuilt Magic Mirror (pictures can be found on the projects page). It utilises a node.js application, which is highly modularised and as such allows a huge community to contribute to this project. You can check out my own module on the projects page.
-                        </p>
-                    </div>
+                    
                     <div className={styles.text}>
                         <h3>Future ventures and projects</h3>
                         <ul>
