@@ -12,7 +12,7 @@ export default function ProjectView() {
             <Jumbotron fluid className={styles.jumbotron}>
                 <div className={styles.projectContainer} id={styles.firstContainer}>
                     <h1 className={styles.heading}>Ludo - an online game</h1>
-                    <p className={styles.description}>A node.js project which implements the old board game Ludo. Contains both server- and client-side code
+                    <p className={styles.description}>A node.js project which implements the old board game Ludo. Contains both server- and client-side code.
                                     Server and client communicates through websockets. Once you join you will be placed in
                                     a random lobby to play with others.</p>
                     <img className={styles.image} src="/splashscreen.png"></img>
